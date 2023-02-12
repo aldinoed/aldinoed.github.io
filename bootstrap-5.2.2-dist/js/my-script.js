@@ -4,8 +4,7 @@ $(document).ready(function () {
     $(".send").click(function () {
       alert("Message sent!");
     })
-  ) {
-  }
+  );
 });
 
 // Fitur Actived Menu Navigation
