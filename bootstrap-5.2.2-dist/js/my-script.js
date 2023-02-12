@@ -1,7 +1,7 @@
 // Fitur Popup Message
 $(document).ready(function () {
   if (
-    $(".sent").click(function () {
+    $(".send").click(function () {
       alert("Message sent!");
     })
   ) {
