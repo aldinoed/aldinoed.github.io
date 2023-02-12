@@ -1,6 +1,8 @@
 // Fitur Popup Message
 $(document).ready(function () {
-  alert("Welcome to My Website!");
+  $(document).click(function () {
+    alert("Message sent!");
+  });
 });
 
 // Fitur Actived Menu Navigation
