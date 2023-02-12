@@ -1,8 +1,11 @@
 // Fitur Popup Message
 $(document).ready(function () {
-  $(document).click(function () {
-    alert("Message sent!");
-  });
+  if (
+    $(".sent").click(function () {
+      alert("Message sent!");
+    })
+  ) {
+  }
 });
 
 // Fitur Actived Menu Navigation
